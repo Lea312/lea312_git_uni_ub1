@@ -7,7 +7,7 @@ public class VariousVariables {
 
         int numberOfChicken = 18000;
         double baconWeight = 0.3;
-        String tractor = "Zentor";
+        String tractor = "None!";
 
         // DON'T MODIFY THESE:
         System.out.println("Chicken:");
