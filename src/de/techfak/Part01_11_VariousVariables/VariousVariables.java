@@ -5,9 +5,9 @@ public class VariousVariables {
     public static void main(String[] args) {
         // MODIFY THESE:
 
-        int numberOfChicken = 3;
-        double baconWeight = 5.5;
-        String tractor = "None!";
+        int numberOfChicken = 18000;
+        double baconWeight = 0.3;
+        String tractor = "Zentor";
 
         // DON'T MODIFY THESE:
         System.out.println("Chicken:");
