@@ -9,5 +9,14 @@ public class AverageOfThreeNumbers {
 
         // Write your program here
 
+        System.out.println("Give the first number:");
+        double a = Double.valueOf(scanner.nextLine());
+        System.out.println("Give the second number:");
+        double b = Double.valueOf(scanner.nextLine());
+        System.out.println("Give the third number:");
+        double c = Double.valueOf(scanner.nextLine());
+
+        System.out.println("The average is " + ((a+b+c)/3));
+
     }
 }
