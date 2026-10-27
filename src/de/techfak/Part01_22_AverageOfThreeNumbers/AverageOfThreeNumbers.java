@@ -18,7 +18,7 @@ public class AverageOfThreeNumbers {
         System.out.println("Give the third number:");
         double c = Double.valueOf(scanner.nextLine());
 
-        double avg = (a+b+c)/3
+        double avg = (a+b+c)/3;
         System.out.println("The average is " + avg);
 
     }
