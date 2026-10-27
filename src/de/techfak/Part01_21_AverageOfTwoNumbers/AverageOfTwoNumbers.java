@@ -12,7 +12,7 @@ public class AverageOfTwoNumbers {
         int a = Integer.valueOf(scanner.nextLine());
         System.out.println("Give the second number:");
         int b = Integer.valueOf(scanner.nextLine());
-
-        System.out.println("The average is " + ((a+b)/2));
+        int avg = (a+b)/2;
+        System.out.println("The average is " + avg);
     }
 }
