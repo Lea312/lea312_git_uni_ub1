@@ -9,10 +9,10 @@ public class AverageOfTwoNumbers {
 
         // Write your program here
         System.out.println("Give the first number:");
-        int a = Integer.valueOf(scanner.nextLine());
+        double a = Double.valueOf(scanner.nextLine());
         System.out.println("Give the second number:");
-        int b = Integer.valueOf(scanner.nextLine());
-        int avg = (a+b)/2;
+        double b = Double.valueOf(scanner.nextLine());
+        double avg = (a+b)/2;
         System.out.println("The average is " + avg);
     }
 }
