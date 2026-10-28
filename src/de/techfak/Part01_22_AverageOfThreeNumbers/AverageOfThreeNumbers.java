@@ -21,5 +21,6 @@ public class AverageOfThreeNumbers {
         double avg = (a+b+c)/3;
         System.out.println("The average is " + avg);
 
+
     }
 }
