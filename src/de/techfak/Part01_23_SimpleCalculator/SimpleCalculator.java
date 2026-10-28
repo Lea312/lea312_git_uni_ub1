@@ -16,7 +16,7 @@ public class SimpleCalculator {
         System.out.println(a + " + " + b + " = " + (a+b));
         System.out.println(a + " - " + b + " = " + (a-b));
         System.out.println(a + " * " + b + " = " + (a*b));
-        float div = a/b;
+        float div = Float.valueOf(a)/Float.valueOf(b);
         System.out.println(a + " / " + b + " = " + (div));
 
     }
