@@ -11,7 +11,7 @@ public class GradesAndPoints {
         System.out.println("Give points [0-100]:");
         int grade = Integer.valueOf(scan.nextLine());
         System.out.println("Grade: ");
-        if (grade == 0) {
+        if (grade < 0) {
             System.out.print("impossible!");
         } else if(grade >= 100){
             System.out.print("incredible!");
@@ -25,7 +25,7 @@ public class GradesAndPoints {
             System.out.print("2");
         } else if(grade <60 && grade >=50){
             System.out.print("1");
-        } else if(grade <=49) {
+        } else if(grade <=49 && >=0) {
             System.out.print("failed");
         }
 
