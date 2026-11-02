@@ -25,7 +25,7 @@ public class GradesAndPoints {
             System.out.print("2");
         } else if(grade <60 && grade >=50){
             System.out.print("1");
-        } else if(grade <=49 && >=0) {
+        } else if(grade <=49 && grade >=0) {
             System.out.print("failed");
         }
 
