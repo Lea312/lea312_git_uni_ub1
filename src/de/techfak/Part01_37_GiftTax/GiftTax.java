@@ -18,7 +18,7 @@ public class GiftTax {
             System.out.println("Tax: " + steuer);
 
         }else if(a>=25000 && a <55000){
-            steuer = 17000+((a-25000)*0.1);
+            steuer = 1700+((a-25000)*0.1);
             System.out.println("Tax: " + steuer);
 
         } else if(a>=55000 && a<200000) {
