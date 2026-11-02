@@ -13,7 +13,7 @@ public class GradesAndPoints {
         System.out.println("Grade: ");
         if (grade < 0) {
             System.out.print("impossible!");
-        } else if(grade >= 100){
+        } else if(grade > 100){
             System.out.print("incredible!");
         } else if(grade < 100 && grade >=90 ){
             System.out.print("5");
